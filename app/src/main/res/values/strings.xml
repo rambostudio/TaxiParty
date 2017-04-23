@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Taxi Party</string>
+    <string name="facebook_app_id">1057334814411160</string>
+    <string name="loading">Loading...</string>
+    <string name="test_large_text">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</string>
+    <string name="test_few_text">test</string>
+</resources>

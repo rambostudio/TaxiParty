@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDestination"
+                android:textSize="24sp"
+                android:layout_alignParentLeft="true"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="อนุสาวรี"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tvCreatedTime"
+                android:layout_toStartOf="@+id/tvCreatedTime" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:text="17:21"
+                android:id="@+id/tvCreatedTime"
+                android:minWidth="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

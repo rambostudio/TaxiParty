@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_chat_button">56dp</dimen>
+    <dimen name="height_chat_bar">56dp</dimen>
+    <dimen name="min_width_image_account">56dp</dimen>
+    <dimen name="min_height_image_account">56dp</dimen>
+    <dimen name="width_message_image_account">48dp</dimen>
+    <dimen name="height_message_image_account">48dp</dimen>
+</resources>
